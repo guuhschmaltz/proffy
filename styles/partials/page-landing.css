@@ -81,6 +81,7 @@
     width: 2.8rem;
     margin-left: 0.8rem;
 }
+
 @media (max-width: 699px){
     #root {
         font-size: 40%; /* modificar as medidas rem */
