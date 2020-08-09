@@ -1,13 +1,13 @@
 .select-block label,
 .input-block label,
-.textarea-block label {
+.textarea-block label{
     font-size: 1.4rem;
     color: var(--color-text-complement);
 }
 
 .input-block input,
 .select-block select,
-.textarea-block textarea {
+.textarea-block textarea{
     width: 100%;
     height: 5.6rem;
     margin-top: 0.8rem;
@@ -21,23 +21,25 @@
 
 .textarea-block textarea{
     padding: 1.2rem 1.6rem;
+    margin-bottom: -0.7rem;
     height: 16rem;
     resize: vertical;
 }
 
-.input-block {
+.input-block,
+.textarea-block{
     position: relative;
 }
 
 .input-block:focus-within::after,
 .textarea-block:focus-within::after {
-content:"";
-width: calc(100% - 3.2rem);
-height: 2px;
-background: var(--color-primary-light);
-position: absolute;
-left: 1.6rem;
-bottom: 0px;
+    content: "";
+    width: calc(100% - 3.2rem);
+    height: 2px;
+    background: var(--color-primary-light);
+    position: absolute;
+    left: 1.6rem;
+    bottom:0px;
 }
 
 label small {
