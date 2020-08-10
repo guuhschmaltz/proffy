@@ -3,6 +3,7 @@ function removeField(element){
     const scheduleList = document.querySelector("#schedule-items")
     const itemToRemove = element.parentElement.parentElement
 
+
     const nextElementSibling = itemToRemove.nextElementSibling
     const previousElementSibling = itemToRemove.previousElementSibling
 

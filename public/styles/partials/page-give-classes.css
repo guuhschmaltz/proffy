@@ -116,10 +116,11 @@
 }
 
 .schedule-item .trash{
-    margin-top: 1.6rem;
-    width: 100%;
+    margin-top: 3rem;
+    width: auto;
+    height: 2.2rem;
     cursor: pointer;
-    padding-left: 93%;
+    padding-left: 0;
 }
 
 @media(min-width:700px){
@@ -147,13 +148,6 @@
         margin-top: 0;
     }
 
-    .schedule-item .trash{
-        width: auto;
-        cursor: pointer;
-        padding-left: 0;
-        /* margin-top: 4.4rem; */
-        height: 2.5rem;
-    }
 
     #page-give-classes main footer{
         padding: 40px 64px;
