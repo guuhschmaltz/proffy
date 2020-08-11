@@ -1,4 +1,4 @@
-<h1 align="center"># Next Level Week  #2 - Proffy
+<h1 align="center"> Next Level Week  #2 - Proffy
   
 ![GitHub language count](https://img.shields.io/github/languages/count/guuhschmaltz/proffy) 
 ![GitHub top language](https://img.shields.io/github/languages/top/guuhschmaltz/proffy?style=plastic) 
